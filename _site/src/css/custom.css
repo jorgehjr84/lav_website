@@ -1,0 +1,61 @@
+body {
+  background-image: url("../../pictures/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 2em; }
+
+#container {
+  width: 100%; }
+
+.main-page {
+  height: 580px; }
+
+#tabs {
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+  #tabs li {
+    list-style: none;
+    float: left;
+    margin-left: 1em;
+    cursor: pointer; }
+  #tabs .name-tab {
+    margin: 0;
+    padding-right: 19em; }
+  #tabs .name-tab ::before {
+    content: '\270e'; }
+
+.content .name {
+  width: 60%;
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid white; }
+
+.content .title {
+  width: 70%;
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+  border-top: 1px solid white;
+  margin-top: .2em; }
+
+.content #main_page_footer {
+  position: relative;
+  left: 16em;
+  top: 7em; }
+  .content #main_page_footer .arrow {
+    width: 2.5em;
+    cursor: pointer; }
+
+#posts-page {
+  height: 580px;
+  background-color: white; }
+
+#page2-picture {
+  position: relative;
+  top: 3em;
+  left: 2em; }
