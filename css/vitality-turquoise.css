@@ -99,7 +99,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #56EDF5;
+  color: white;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -511,7 +511,6 @@ aside.cta-quote span.quote {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4em;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1200,7 +1199,12 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 #cf img.top:hover {
   opacity:0;
 }
+
 #cf img.bottom{
   position: absolute;
   bottom: 5em;
+}
+
+.about-carousel .item #sib1:hover + #sib2{
+  display: none;
 }
