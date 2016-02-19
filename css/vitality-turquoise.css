@@ -152,7 +152,7 @@ hr.right {
   margin: 15px 0 15px auto;
 }
 hr.colored {
-  border-color: #41c4ab;
+  border-color: #3399D4;
 }
 @media (min-width: 768px) {
   hr {
@@ -178,7 +178,7 @@ hr.colored {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #41c4ab;
+  color: #3399D4;
   background-color: white;
   border-radius: 0;
 }
@@ -197,7 +197,7 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: #222222;
+  background-color: grey;
 }
 .navbar-default,
 .navbar-inverse {
@@ -1159,4 +1159,20 @@ body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testi
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
+}
+
+#small_logo{
+  width: 7em;
+  height: 5em;
+  position: relative;
+  bottom: 1em;
+}
+#big_logo{
+  transform:scale(2.25,2.25);
+  position: relative;
+  bottom: 4em;
+}
+#about_section{
+  position: relative;
+  bottom: 5em;
 }
