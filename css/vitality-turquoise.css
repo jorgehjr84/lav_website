@@ -1248,3 +1248,33 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   -o-animation:      arrow-jump 3s infinite;
   animation:         arrow-jump 3s infinite;
 }
+
+.card{
+  width: 20em;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  position: relative;
+  top: 3em;
+  margin-top: 10px;
+  transition:  .5s;
+
+}
+.card h3{
+  background-color: rgb(245, 245, 245);
+  height: 3em;
+  padding-top: 1em;
+  border-bottom:  1px solid darkgrey;
+  position: relative;
+  bottom: .85em;
+}
+#card_button{
+  margin-top: 3em;
+  margin-bottom: 1em;
+  background-color: #3399D4;
+  border-radius: 3px;
+}
+.card:hover {
+  margin-top: 20px;
+  transition:  .5s;
+
+}
