@@ -14,7 +14,7 @@ body {
   margin-top: 30px;
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .bg-gray {
   background-color: #f5f5f5;
@@ -553,7 +553,7 @@ aside.cta-quote span.quote {
   margin: auto 0 !important;
   top: 0;
   bottom: 0;
-  background-color: #41c4ab !important;
+  background-color: #3399D4 !important;
   color: white !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -1173,6 +1173,7 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   position: relative;
   bottom: 4em;
 }
+
 #about_section{
   position: relative;
   bottom: 5em;
@@ -1194,6 +1195,9 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -o-transition: opacity .75s ease-in-out;
   transition: opacity .75s ease-in-out;
   vertical-align: middle;
+  width: 100% !important;
+  height: 20em !important;
+
 }
 
 #cf img.top:hover {
@@ -1207,4 +1211,13 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 
 .about-carousel .item #sib1:hover + #sib2{
   display: none;
+}
+.our_team_header{
+  font-size: 2.5em;
+}
+.item{
+  text-align: center;
+}
+#cf img #gianina_pic{
+  width: 10%;
 }
