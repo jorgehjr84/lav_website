@@ -11,6 +11,7 @@ body {
   margin: 0 auto;
 }
 .content-row {
+  text-align: center;
   margin-top: 30px;
 }
 section {
@@ -571,6 +572,7 @@ aside.cta-quote span.quote {
 }
 .services .media {
   margin-bottom: 30px;
+  text-align: center;
 }
 .services .media i.fa {
   height: 75px;
@@ -590,7 +592,7 @@ aside.cta-quote span.quote {
 }
 .services .media .media-body ul {
   list-style: inside;
-  padding: 0;
+
 }
 .services .media .media-body ul li {
   margin-bottom: 10px;
@@ -1220,4 +1222,29 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 }
 #cf img #gianina_pic{
   width: 10%;
+}
+#services_list{
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 8em;
+}
+
+
+/* Learned this code from user Paulito on JFiddle
+http://jsfiddle.net/paulitto/PHUf4/1/ */
+
+@-webkit-keyframes arrow-jump {
+  0%   { opacity: 0;}
+  100% { opacity: 1;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -0-transform: translateY(10px);
+    transform: translateY(10px);
+    }
+}
+#arrow {
+  -webkit-animation: arrow-jump 3s infinite;
+  -moz-animation:    arrow-jump 3s infinite
+  -o-animation:      arrow-jump 3s infinite;
+  animation:         arrow-jump 3s infinite;
 }

@@ -81,9 +81,9 @@
           <li>
             <a class="page-scroll" href="#services">Services</a>
           </li>
-          <li>
+          <!-- <li>
             <a class="page-scroll" href="#work">Work</a>
-          </li>
+          </li> -->
           <li>
             <a class="page-scroll" href="#contact">Contact</a>
           </li>
@@ -100,7 +100,7 @@
       <img id="big_logo" src="media/Lav_Color_Vertical.png" class="img-responsive img-centered" alt="">
       </div>
     <div class="scroll-down">
-      <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+      <a id="arrow" class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
     </div>
   </header>
 
@@ -236,170 +236,67 @@
       </div>
   </section>
   <section id="services" class="bg-gray">
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col-lg-12 wow fadeIn">
-          <h1>Skills</h1>
-          <hr class="colored">
-        </div>
-      </div>
-
-      <div id="skills_section" class="col-lg-12">
-        <div class="col-lg-6">
-          <h3>HTML and CSS</h3>
-          <p>Familiar with CSS, as well as extension language Sass</p>
-          <p>Comfortable with HTML and scaffolding packages such as Yeoman</p>
-        </div>
-        <!-- <div class="progress">
-        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-          <span class="sr-only">70% Complete (success)</span>
-        </div>
-      </div> -->
-      <div class="col-lg-6">
-        <h3 >Angular JS, Jquery, and Vanilla JS</h3>
-        <p>Worked closely with Angular JS and have a great understanding of dependancy injections, as well as using directives when it comes to Angular </p>
-        <p>Worked with Vanilla JS to create basic functionality on multiple TIY Assignments</p>
-      </div>
-
-        <!-- <div class="progress">
-      <div class="progress-bar  progress-bar-striped" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-        <span class="sr-only">65% Complete (success)</span>
-      </div>
-    </div> -->
-    <div class="col-lg-6">
-      <h3>mySQL</h3>
-      <p>Basic knowledge of creating databases, as well as </p>
-      <p>using SQL statements.</p>
-
-    </div>
-    <!--   <div class="progress">
-    <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-    <span class="sr-only">90% Complete (success)</span>
-    </div>
-    </div> -->
-
-        <div class="col-lg-6">
-          <h3>Git and Github</h3>
-          <p>Knowledgeable in working with Git, Github, and Git Flow Workflow</p>
-          <p>Experience with working in paired programming enviroments</p>
-          <p>Experience dealing with and resolving merge conflicts </p>
-        </div>
-
-      <div>
-        <h3 class="col-lg-12">Google Fu</h3>
-        <p>Extremely resourceful when researching various challenges I have come across</p>
-        <!-- <div class="progress">
-        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
-          <span class="sr-only">95% Complete (success)</span>
-        </div>
-        </div> -->
-      </div>
-
-  </section>
-  <!-- End of skills section -->
-  <!-- Beginning of Resume Section -->
-  <section id="process" class="services">
     <div class="container">
-      <div class="row text-center">
-        <div id="resume_section" class="col-lg-12 wow fadeIn">
-          <h2>Resume</h2>
-          <hr class="colored">
-          <a href="docs/img/Jorge L Hernandez JR Resume v.3.pdf" target="_blank" class="btn btn-lg btn-outline">
-            <i class="fa fa-download"></i> Download Resume
-          </a>
-          <!-- Beginning of detailed resume section -->
-          <div id="detailed_resume" >
-            <h3>Experience</h3>
-
-      <!-- Beginning of Resume Experience Section -->
-      <div class="col-lg-12">
-
-          <div class="col-lg-6">
-            <h4>Owner LAV Productions LLC</h4> <h5 class="resume_date">Orlando September 2008 – Present</h5>
+          <div class="row text-center">
+              <div class="col-lg-12 wow fadeIn">
+                  <h2>Services</h2>
+                  <hr class="colored">
+                  <p>Scouting and hiring the best talent is our goal. </p>
+              </div>
           </div>
-
-          <div class="col-lg-6">
-            <h4>Freelance Lighting Director</h4> <h5 class="resume_date">Orlando March 2007 – March 2015</h5>
+          <div class="row content-row">
+              <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
+                  <div class="media">
+                      <div class="pull-left">
+                          <!-- <i class="fa fa-clipboard"></i> -->
+                      </div>
+                      <div class="media-body">
+                          <h3 class="media-heading">Lighting</h3>
+                          <ul id="services_list">
+                              <li>L1/ Lighting Director</li>
+                              <li>Lighting Designer</li>
+                              <li>Master Electrician</li>
+                              <li>Lighting Assist</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
+                  <div class="media">
+                      <div class="pull-left">
+                          <!-- <i class="fa fa-pencil"></i> -->
+                      </div>
+                      <div class="media-body">
+                          <h3 class="media-heading">Audio</h3>
+                          <ul id="services_list">
+                              <li>A1/Audio Engineer</li>
+                              <li>A2</li>
+                              <li>Wireless Tech</li>
+                              <li>Audio Assist</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
+                  <div class="media">
+                      <div class="pull-left">
+                          <!-- <i class="fa fa-rocket"></i> -->
+                      </div>
+                      <div class="media-body">
+                          <h3 class="media-heading">Video</h3>
+                          <ul id="services_list">
+                              <li>Video Engineer</li>
+                              <li>Projectionist</li>
+                              <li>Tape Op</li>
+                              <li>Camera Op</li>
+                              <li>Video Assist</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
           </div>
-
-          <div class="col-lg-6">
-            <h4>Swank Audio Visuals</h4>  <h5 class="resume_date">Orlando/Miami, FL April 2004 - March 2007</h5>
-          </div>
-            <h4>Walgreen’s Pharmacy</h4> <h5 class="resume_date">Coral Springs, FL October 2000-April 2004</h5>
-          </div>
-          <!-- End of Resume Experience Section -->
-
-          <!-- Beginning of Resume Education Section -->
-          <div class="col-lg-12">
-            <h3>Education</h3>
-            <div class="col-lg-6">
-              <h4>The Iron Yard</h4>
-                <h5 class="resume_date">Orlando, FL Completed July 2015</h5>
-            </div>
-
-            <div class="col-lg-6">
-              <h4>Full Sail Real World Education</h4>
-                <h5 class="resume_date">Winter Park, FL Completed October 2003</h5>
-            </div>
-
-            <div class="col-lg-6">
-              <h4>Atlantic Technical Center</h4>
-                <h5 class="resume_date">Coconut Creek, FL Completed June 2002</h5>
-            </div>
-
-          <div class="col-lg-6">
-            <h4>JP Taravella HS</h4>
-              <h5 class="resume_date">Coral Springs, FL Completed June 2002</h5>
-          </div>
-        </div>
-          <!-- End of Resume Education Section -->
-
-          </div>
-          <!-- End of detailed resume section -->
-        </div>
-  </section>
-  <section id="work" class="bg-gray">
-
-    <div class="container text-center wow fadeIn">
-
-      <h2>Portfolio</h2>
-      <hr class="colored">
-
-      <!-- Beginning of screen shot section -->
-      <div>
-        <div class="col-md-12">
-          <img src="assets/img/mySycamore.png" alt="">
-          <a href=""></a>
-          <h3>mySycamore</h3>
-          <p>A family tree app where you can add and edit information about relatives. That information then gets stored in a database</p>
-          <p>The tech stack used for this project was Angular JS, jQuery, Sass, HTML, Gulp Angular Generator, and Firebase</p>
-          <a class="btn  page-scroll" href="  https://github.com/jorgehjr84/mySycamore" target="_blank">View the Source Code</a>
-          <a class="btn  page-scroll" href="https://mysycamore.firebaseapp.com/#/" target="_blank">View Live Demo</a>
-
-        </div>
-        <div class="col-md-12">
-          <img src="assets/img/AngularTodoSmall.png" alt="">
-          <h3>Todo Angular</h3>
-          <p>Simple todo list created using AngularJS</p>
-          <p>The tech stack used for this project was AngularJS, and a small amount of CSS and HTML</p>
-          <a class="btn  page-scroll" href="https://github.com/jorgehjr84/todo-angular" target="_blank">View the Source Code</a>
-          <a class="btn  page-scroll" href="assets/img/AngularTodo.png" target="_blank">View Screen Shot</a>
-
-        </div>
-        <div class="col-md-12">
-          <img src="assets/img/TIYMashup.png" alt="">
-          <a href=""></a>
-          <h3>TIY Mashup</h3>
-          <p>An open project with the goal of utilizing APIs. For this project we utilized the Flickr, NY Times, and Open Weather Map APIs</p>
-          <p>The tech stack used for this project was jQuery, Sass, HTML, as well as HTML BoilerPlate </p>
-          <a class="btn  page-scroll" href="https://github.com/pcreglow/TIY-Mashup/tree/develop" target="_blank">View the Source Code</a>
-          <a class="btn  page-scroll" href="docs/img/TIY-Mashup__pcreglow__jorgehjr84.png" target="_blank">View Screen Shot</a>
-        </div>
       </div>
-      <!-- End of screen shot section -->
   </section>
-
-
 
 
   <section id="contact">
@@ -481,9 +378,7 @@
 
       </div>
   </section>
-  <div class="col-lg-6 col-lg-offset-3 text-center">
-    <h5>Portfolio created with the help of Start Bootstrap</h5>
-  </div>
+  
   <!-- Core Scripts -->
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap/bootstrap.min.js"></script>
