@@ -156,6 +156,7 @@ hr.colored {
   border-color: #3399D4;
 }
 @media (min-width: 768px) {
+
   hr {
     max-width: 200px;
     margin: 20px auto;
@@ -199,11 +200,13 @@ hr.colored {
 }
 .navbar-inverse {
   background-color: grey;
+
 }
 .navbar-default,
 .navbar-inverse {
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1px;
 }
 .navbar-default .navbar-brand,
 .navbar-inverse .navbar-brand {
@@ -505,6 +508,7 @@ aside.cta-quote span.quote {
 }
 .about-carousel .item {
   padding: 15px;
+  min-width: 350px;
 }
 .about-carousel .item .caption {
   padding: 15px;
@@ -1169,16 +1173,18 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   height: 5em;
   position: relative;
   bottom: 1em;
+  transform:scale(1.2,1.2);
 }
 #big_logo{
   transform:scale(2.25,2.25);
   position: relative;
-  bottom: 4em;
+  bottom: 1em;
 }
 
 #about_section{
-  position: relative;
-  bottom: 5em;
+  margin-top: 3em;
+  margin-bottom: 6em;
+
 }
 
 /* Crossfade Picture Styling */
@@ -1196,9 +1202,9 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   -moz-transition: opacity .75s ease-in-out;
   -o-transition: opacity .75s ease-in-out;
   transition: opacity .75s ease-in-out;
-  vertical-align: middle;
-  width: 100% !important;
-  height: 20em !important;
+  width: auto;
+  min-width: 348px;
+  height: 348px;
 
 }
 
@@ -1219,10 +1225,16 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
 }
 .item{
   text-align: center;
+  background-color: black;
+  margin: 15px;
 }
-#cf img #gianina_pic{
+/* #cf img #gianina_pic{
   width: 10%;
-}
+} */
+/* #frank_pic{
+  height: 20em;
+} */
+
 #services_list{
   list-style-type: none;
   padding: 0;
@@ -1247,6 +1259,8 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   -moz-animation:    arrow-jump 3s infinite
   -o-animation:      arrow-jump 3s infinite;
   animation:         arrow-jump 3s infinite;
+  margin-bottom: 2em;
+  color: #49494A;
 }
 
 .card{
@@ -1254,9 +1268,9 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   border: 1px solid darkgrey;
   border-radius: 3px;
   position: relative;
-  top: 3em;
-  margin-top: 10px;
+  bottom: 10px;
   transition:  .5s;
+  margin-top: 20px;
 
 }
 .card h3{
@@ -1274,7 +1288,32 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   border-radius: 3px;
 }
 .card:hover {
-  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
   transition:  .5s;
+}
+section #contact{
+  height: auto;
+}
 
+@media (max-width: 768px) {
+  header{
+    height: 38em;
+  }
+  #big_logo{
+    position: relative;
+    top: 10em;
+
+  }
+  #arrow{
+    position: relative;
+    top: 1.5em;
+  }
+}
+
+@media (max-width: 1210px){
+  .owl-item{
+    max-width: 365px !important;
+
+  }
 }
