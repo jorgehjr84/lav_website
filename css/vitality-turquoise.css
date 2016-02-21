@@ -1196,3 +1196,10 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   color: #49494A;
 }
 /* End of Main Page Styling */
+
+
+/* Our Team Styling */
+.item img{
+  /* height: auto;
+  max-height: 300px; */
+}
