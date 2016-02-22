@@ -1226,7 +1226,7 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
    height: 400px;
   position: absolute;
   bottom: 400px;
-  displa */y: block;
+  display: block;
 }
 
 /* Services Styling */
