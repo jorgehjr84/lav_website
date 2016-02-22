@@ -99,7 +99,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #41c4ab;
+  color: white;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -196,7 +196,7 @@ hr.colored {
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-inverse {
-  background-color: lightgrey;
+  background-color: #49494A;
 }
 .navbar-default,
 .navbar-inverse {
@@ -1175,6 +1175,9 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   position: relative;
   bottom: 1em;
 }
+
+
+
 /* Learned this code from user Paulito on JFiddle
 http://jsfiddle.net/paulitto/PHUf4/1/ */
 
@@ -1193,13 +1196,85 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   -o-animation:      arrow-jump 3s infinite;
   animation:         arrow-jump 3s infinite;
   margin-bottom: 1em;
-  color: #49494A;
+  color: white;
 }
 /* End of Main Page Styling */
 
 
+/* About Page Styling */
+
+/* @media (max-width: 767px){
+  .video{
+      margin-bottom:
+  }
+} */
+
+
 /* Our Team Styling */
+
 .item img{
-  /* height: auto;
-  max-height: 300px; */
+
+  -webkit-transition: opacity .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+  -o-transition: opacity .75s ease-in-out;
+  transition: opacity .75s ease-in-out;
+}
+/* .item img:hover{
+  opacity: 0;
+}
+.bottom{
+   height: 400px;
+  position: absolute;
+  bottom: 400px;
+  displa */y: block;
+}
+
+/* Services Styling */
+#services_list{
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 8em;
+}
+.media{
+  text-align: center;
+}
+
+
+/* Contact Styling */
+.card{
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  position: relative;
+  bottom: 10px;
+  transition:  .5s;
+  margin-top: 20px;
+
+}
+.card h3{
+  background-color: rgb(245, 245, 245);
+  height: 3em;
+  padding-top: .5em;
+  border-bottom:  1px solid darkgrey;
+  position: relative;
+  bottom: .85em;
+}
+#card_button{
+  margin-top: 3em;
+  margin-bottom: 1em;
+  background-color: #3399D4;
+  border-radius: 3px;
+}
+.card:hover {
+  position: relative;
+  bottom: 20px;
+  transition:  .5s;
+}
+
+@media (max-width: 1200px){
+  .frank_contact_link {
+    margin-top: 1.75em !important;
+  }
+  .card-header{
+    margin-bottom: 1em;
+  }
 }
