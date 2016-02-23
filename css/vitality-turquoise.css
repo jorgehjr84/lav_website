@@ -506,11 +506,12 @@ aside.cta-quote span.quote {
 }
 .about-carousel .item .caption {
   padding: 15px;
-  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 0;
+  color: white;
   width: 100%;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1276,5 +1277,18 @@ http://jsfiddle.net/paulitto/PHUf4/1/ */
   }
   .card-header{
     margin-bottom: 1em;
+  }
+  .about-carousel .item .caption {
+    padding: 15px;
+    padding-bottom: 0;
+    color: white;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
