@@ -30,7 +30,8 @@
   <link href="css/plugins/background.css" rel="stylesheet" type="text/css">
   <link href="css/plugins/animate.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-<link rel="shortcut icon" type="image/png" href="http://lavprod.com/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="http://lavprod.com/favicon.png"/>
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
 
   <!-- Vitality Theme CSS -->
   <!-- Uncomment the color scheme you want to use. -->
@@ -394,15 +395,94 @@
   <label for="exampleInputPassword1">Event Name</label>
   <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Event Name">
 </div>
+<div class="form-group col-md-4 col-md-offset-2">
+  <label for="exampleInputPassword1">Venue</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Venue">
+</div>
+<div class="form-group col-md-4">
+  <label for="exampleInputPassword1">Check In Location</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ballroom,Loading Dock, etc...">
+</div>
+<div class="form-group col-md-4 col-md-offset-2">
+  <label for="exampleInputPassword1">On Site Contact</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="On Site Contact">
+</div>
+<div class="form-group col-md-4 ">
+  <label for="exampleInputPassword1">Email Address</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Email Address">
+</div>
+
+
+        <div class='col-md-4 col-md-offset-2'>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Date</label>
+
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+<div class="form-group col-md-4 ">
+  <label for="exampleInputPassword1">Duration</label>
+  <select class="form-control">
+    <option>Full Day</option>
+    <option>Half Day</option>
+  </select>
+</div>
+
+
+<div class="form-group col-md-4 col-md-offset-2 ">
+  <label for="exampleInputPassword1">Duration</label>
+
+  <select class="form-control">
+    <option>A1</option>
+    <option>A2</option>
+    <option>Audio Assist</option>
+    <option>AV Tech</option>
+    <option>Camera Op</option>
+    <option>Camera Op H.H.</option>
+    <option>Carpenter</option>
+    <option>Computer Tech</option>
+    <option>Exhibit Tech</option>
+    <option>Floater</option>
+    <option>Grapics Op</option>
+    <option>LED Wall Assist</option>
+    <option>Lighting Assist</option>
+    <option>Lighting Director</option>
+    <option>Master Electrician</option>
+    <option>Network Tech</option>
+    <option>Projectionist</option>
+    <option>Record Tech</option>
+    <option>Rigger</option>
+    <option>Room Op</option>
+    <option>Spot Op</option>
+    <option>Stagehand</option>
+    <option>Tape Op</option>
+    <option>Truck Loader</option>
+    <option>V1</option>
+    <option>V2</option>
+    <option>Video Assist</option>
+  </select>
+</div>
+
+<div class="form-group col-md-4 ">
+  <label for="exampleInputPassword1">QTY</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Quantity">
+</div>
+
+
+
 <div class="form-group">
   <label for="exampleInputFile">File input</label>
   <input type="file" id="exampleInputFile">
   <p class="help-block">Example block-level help text here.</p>
 </div>
 <div class="checkbox">
-  <label>
-    <input type="checkbox"> Check me out
-  </label>
+
 </div>
 <button type="submit" class="btn btn-default">Submit</button>
 </form>
@@ -428,6 +508,9 @@
   <!-- Vitality Theme Scripts -->
   <script src="assets/js/vitality.js"></script>
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="/bower_components/moment/min/moment.min.js"></script>
+  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
 
 </body>
 
