@@ -3,4 +3,9 @@
 $('#popover').popover('hide')
 $('.popover-with-html').popover({ html : true, container: 'body'});
 
+$(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+
+
  });

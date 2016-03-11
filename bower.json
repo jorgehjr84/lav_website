@@ -17,7 +17,8 @@
     "jquery": "~2.1.4",
     "normalize.css": "~3.0.3",
     "lodash": "~3.9.3",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.37"
   },
   "devDependencies": {
     "jquery": "~2.1.4"
